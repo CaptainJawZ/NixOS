@@ -1,0 +1,50 @@
+keys:
+  - &users:
+    - &devkey 00000000000000000000000000000000000000000000000000000000000000
+  - &hosts:
+    - &workstation 00000000000000000000000000000000000000000000000000000000000000
+    - &server 00000000000000000000000000000000000000000000000000000000000000
+    - &miniserver 00000000000000000000000000000000000000000000000000000000000000
+creation_rules:
+  - path_regex: secrets/secrets.yaml$
+    key_groups:
+      - age:
+          - *devkey
+          - *workstation
+          - *server
+          - *miniserver
+  - path_regex: secrets/keys.yaml$
+    key_groups:
+      - age:
+          - *devkey
+          - *workstation
+          - *server
+          - *miniserver
+  - path_regex: secrets/env.yaml$
+    key_groups:
+      - age:
+          - *devkey
+          - *workstation
+          - *server
+          - *miniserver
+  - path_regex: secrets/wireguard.yaml$
+    key_groups:
+      - age:
+          - *devkey
+          - *workstation
+          - *server
+          - *miniserver
+  - path_regex: secrets/homepage.yaml$
+    key_groups:
+      - age:
+          - *devkey
+          - *workstation
+          - *server
+          - *miniserver
+  - path_regex: secrets/certs.yaml$
+    key_groups:
+      - age:
+          - *devkey
+          - *workstation
+          - *server
+          - *miniserver
