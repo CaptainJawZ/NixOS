@@ -10,7 +10,7 @@
       inputs.nixpkgs.follows = "";
     };
     jawz-scripts = {
-      url = "git+ssh://git@gitlab.com/CaptainJawZ/scripts-flake.git";
+      url = "github:CaptainJawZ/jawz-scripts";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nur = {

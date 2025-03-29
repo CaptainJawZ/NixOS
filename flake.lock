@@ -735,17 +735,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1743095045,
-        "narHash": "sha256-ATYZBZqubBQWEczG0IzV9Wd4zUCamhXB6+p+Z2i3MZU=",
-        "ref": "refs/heads/master",
-        "rev": "1e452fb24e842ab13b14683a34f7117b48030422",
-        "revCount": 79,
-        "type": "git",
-        "url": "ssh://git@gitlab.com/CaptainJawZ/scripts-flake.git"
+        "lastModified": 1743209856,
+        "narHash": "sha256-+rffmL12QrYtCTosvfRN8DlzeJWHqF5ORceSyyjds9A=",
+        "owner": "CaptainJawZ",
+        "repo": "jawz-scripts",
+        "rev": "49be205dc0afd37893a6aff6c9cc8cbf33ffc56e",
+        "type": "github"
       },
       "original": {
-        "type": "git",
-        "url": "ssh://git@gitlab.com/CaptainJawZ/scripts-flake.git"
+        "owner": "CaptainJawZ",
+        "repo": "jawz-scripts",
+        "type": "github"
       }
     },
     "nix-gaming": {
@@ -951,8 +951,29 @@
         "nixpkgs11": "nixpkgs11",
         "nixtendo-switch": "nixtendo-switch",
         "nur": "nur",
+        "sops-nix": "sops-nix",
         "stylix": "stylix",
         "ucodenix": "ucodenix"
+      }
+    },
+    "sops-nix": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1742700801,
+        "narHash": "sha256-ZGlpUDsuBdeZeTNgoMv+aw0ByXT2J3wkYw9kJwkAS4M=",
+        "owner": "Mic92",
+        "repo": "sops-nix",
+        "rev": "67566fe68a8bed2a7b1175fdfb0697ed22ae8852",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Mic92",
+        "repo": "sops-nix",
+        "type": "github"
       }
     },
     "stylix": {
